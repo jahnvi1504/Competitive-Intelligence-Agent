@@ -18,7 +18,7 @@ User Query → [1] Orchestrator → [2] Retriever (4 parallel agents) → [3] Ex
      - *News Agent*: Tracks recent 12-month press releases/updates.
      - *Sentiment Agent*: Gathers App Store, Google Play, Trustpilot, and Reddit reviews.
    - **Extractor**: Searches vector store (Qdrant) and parses values from scraped content.
-   - **Verifier (Jahnvi's Layer)**: Checks domain authority, runs Company Fingerprint filters, clusters matching entities, and detects data conflicts.
+   - **Verifier**: Checks domain authority, runs Company Fingerprint filters, clusters matching entities, and detects data conflicts.
    - **Narrator**: Generates footnote-cited client briefs in analyst voice.
    - **Comparator**: Performs dual matrix comparison with dynamic relative advantage markings.
 
