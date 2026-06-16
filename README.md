@@ -1,5 +1,4 @@
 # Autonomous Competitive Intelligence Research Agent
-## Team Styles | PES University
 
 An autonomous, source-verified loyalty program competitive research agent. Given only a program or brand name, the system discovers sources, scrapes terms and FAQs, runs fingerprint filtering, resolves conflicts, and generates structured profiles (35+ fields) alongside strategic narratives and comparisons.
 
@@ -23,7 +22,7 @@ User Query → [1] Orchestrator → [2] Retriever (4 parallel agents) → [3] Ex
    - **Narrator**: Generates footnote-cited client briefs in analyst voice.
    - **Comparator**: Performs dual matrix comparison with dynamic relative advantage markings.
 
-2. **Jahnvi's Confidence Scoring System**:
+2. **Confidence Scoring System**:
    - Official Program Site/App: `3.0` weight
    - Official Press Release: `2.0` weight
    - Major News Outlets (Reuters, WSJ, Bloomberg): `1.5` weight
